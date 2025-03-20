@@ -1,0 +1,6 @@
+.Menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+}
