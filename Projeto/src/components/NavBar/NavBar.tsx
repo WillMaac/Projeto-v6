@@ -20,6 +20,9 @@ export const NavBar = () => {
       <li>
         <Link to="/posts/10">Posts 10</Link>
       </li>
+      <li>
+        <Link to="/redirect">Redirect</Link>
+      </li>
     </ul>
   </nav>
     );

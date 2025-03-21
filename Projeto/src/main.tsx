@@ -8,6 +8,7 @@ import { Home } from "./components/Home/Home";
 import { About } from "./components/About/About";
 import { NavBar } from "./components/NavBar/NavBar";
 import { Post } from "./components/Post/Post";
+import { Redirect } from "./components/Redirect/Redirect";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -16,8 +17,9 @@ createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/posts" element={<Post />} />
         <Route path="/posts/:id" element={<Post />} />
+        <Route path="/posts" element={<Post />} />
+        <Route path="/redirect" element={<Redirect />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

@@ -1,6 +1,5 @@
 import { useParams, useSearchParams } from "react-router-dom";
 import "./srtles.css";
-import { useState } from "react";
 
 
 export const Post = () => {
